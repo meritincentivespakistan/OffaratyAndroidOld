@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.riyadhbank.Activity.OtpVerificationActivity"
+    android:background="@color/greyTint">
+
+    <include
+        android:id="@+id/actionBar"
+        layout="@layout/custom_actionbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/actionBar">
+
+        <com.riyadhbank.Custom.RBRegularTextView
+            android:id="@+id/message_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/otp_msg"
+            android:textColor="#BDBDBD"
+            android:textSize="16dp"
+            android:lineSpacingExtra="-5dp"/>
+
+        <LinearLayout
+            android:id="@+id/otpLout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/D_30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <com.riyadhbank.Custom.RBRegularEditText
+                android:id="@+id/edtOne"
+                style="@style/otpVerificationEdtStyle" />
+
+            <com.riyadhbank.Custom.RBRegularEditText
+                android:id="@+id/edtTwo"
+                style="@style/otpVerificationEdtStyle"/>
+
+            <com.riyadhbank.Custom.RBRegularEditText
+                android:id="@+id/edtThree"
+                style="@style/otpVerificationEdtStyle"/>
+
+            <com.riyadhbank.Custom.RBRegularEditText
+                android:id="@+id/edtFour"
+                style="@style/otpVerificationEdtStyle"/>
+
+            <com.riyadhbank.Custom.RBRegularEditText
+                android:id="@+id/edtFive"
+                style="@style/otpVerificationEdtStyle"/>
+
+            <com.riyadhbank.Custom.RBRegularEditText
+                android:id="@+id/edtSix"
+                style="@style/otpVerificationEdtStyle"/>
+
+        </LinearLayout>
+
+        <com.riyadhbank.Custom.RBRegularTextView
+            android:id="@+id/btnSubmit"
+            style="@style/footerBtnStyle"
+            android:layout_height="@dimen/D_45dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+
+
+Password : m@r@9876
+Alias : key0
+Key Password : Team#6040
+V1 (Jar Signature) : true
+V2 (Full Apk Signature) : true
+
+username: it@meritincentives.com
+password: m@r@9876
+
+username : tenxapplication@gmail.com
+Password : Team#6040

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/D_5dp"
+        app:cardCornerRadius="@dimen/D_3dp"
+        app:cardElevation="@dimen/D_2dp"
+        app:cardPreventCornerOverlap="false">
+
+        <RelativeLayout
+            android:id="@+id/mainLout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.riyadhbank.Custom.RoundishImageView
+                android:id="@+id/offerImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:cornerRadius="3dp"
+                app:roundedCorners="all" />
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:id="@+id/dicountLout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_offer" />
+
+                <com.riyadhbank.Custom.RBRegularTextView
+                    android:id="@+id/txtDiscount"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/favLout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgFavourite"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/heart_full" />
+
+            </LinearLayout>
+
+            <com.riyadhbank.Custom.RoundishImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@color/themeColorTint"
+                app:cornerRadius="3dp"
+                app:roundedCorners="bottomLeft|bottomRight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.riyadhbank.Custom.RBRegularTextView
+                    android:id="@+id/offerCompName"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="bottom"
+                    android:paddingEnd="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="5dp"
+                    android:singleLine="true"
+                    android:text="Receive 20% off your purchase"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"/>
+
+                <com.riyadhbank.Custom.RBRegularTextView
+                    android:id="@+id/offerTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="top"
+                    android:paddingEnd="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="5dp"
+                    android:singleLine="true"
+                    android:text="Receive 20% off your purchase"
+                    android:textColor="@color/white"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

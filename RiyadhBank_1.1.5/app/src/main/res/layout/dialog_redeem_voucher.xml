@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/sortDialogLout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:id="@+id/txtWelcomeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/top_corner_radius_theme"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/reddem_voucher"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bottom_corner_radius_white"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.riyadhbank.Custom.RBRegularTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/insert_merchant_code"
+                    android:textColor="@color/black" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <com.riyadhbank.Custom.RBRegularEditText
+                        android:id="@+id/edtPinCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:gravity="top"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:hint="@string/password"
+                        android:textSize="@dimen/D_14dp"
+                        android:textColor="@color/themeColor"
+                        android:textColorHint="@color/grey"/>
+
+                </android.support.v7.widget.CardView>
+
+                <com.riyadhbank.Custom.RBRegularTextView
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rounded_theme_solid_rad"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/Submit"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|end"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/circle_shadow">
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="X"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

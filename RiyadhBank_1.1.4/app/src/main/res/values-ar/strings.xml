@@ -1,0 +1,122 @@
+<resources>
+
+    <string name="app_name">اوفراتي</string>
+
+    <string name="Login">تسجيل الدخول</string>
+    <string name="mobile_number">رقم الهاتف المحمول</string>
+    <string name="password">رمز المرور</string>
+    <string name="forgot_password">نسيت كلمة السر؟</string>
+    <string name="sign_up">تسجيل الإشتراك</string>
+    <string name="forgot_pass">نسيت كلمة السر</string>
+
+    <string name="username">اسم المستخدم</string>
+    <string name="first_name">الاسم الأول</string>
+    <string name="last_name">الاسم الأخير</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="employee_id">الرقم التعريفي للموظف</string>
+    <string name="con_password">أ ّكد كلمة المرور</string>
+    <string name="dont_acc">"هل لديك حساب؟ "</string>
+
+    <string name="cancel">إلغاء</string>
+    <string name="submit">إرسال</string>
+    <string name="Submit">إرسال</string>
+    <string name="otp_verification">تاكيد كلمة المرور لمرة واحدة</string>
+
+    <string name="please_try_again">حاول مرة اخرى.</string>
+
+    <string name="insert_username">الرجاء إدخال اسم المستخدم</string>
+    <string name="insert_fname">يرجى إدخال االسم األول</string>
+    <string name="insert_lname">يرجى إدخال االسم األخير</string>
+    <string name="insert_email">إدخال البريد اإللكتروني</string>
+    <string name="email_validation">الرجاء إدخال بريد إلكتروني صحيح</string>
+    <string name="insert_mobile"> يرجى إدخال رقم الجوال</string>
+    <string name="insert_emp_id">الرجاء إدخال معرف الموظف</string>
+    <string name="insert_password"> يرجى إدخال كلمة المرور</string>
+    <string name="insert_con_password">من فضلك أدخل كلمة مرور تأكيد</string>
+    <string name="insert_otp">OTP إدخال ي</string>
+    <string name="otp_validation">صالح OTP إدخال يرجى </string>
+    <string name="con_password_validation"> كال كلمة المرور غير متطابقة</string>
+    <string name="internet_msg">الرجاء التحقق من اتصال االنترنت الخاص بك</string>
+    <string name="otp_msg">لقد أرسلنا لك رمز وصول عبر SMS للتحقق</string>
+    <string name="logout_msg">هل تريد تسجيل الخروج؟</string>
+    <string name="otp_send_msg">.بنجاح ت</string>
+
+    <string name="offaraty">اوفراتي</string>
+    <string name="home">الرئيسية</string>
+    <string name="profile">حسابي</string>
+    <string name="favourite">مفضلاتي</string>
+    <string name="about_us">من نحن</string>
+    <string name="logout">تسجيل الخروج</string>
+
+    <string name="profile_update">حسابك الخاص</string>
+    <string name="change_password">غيّر كلمة المرور</string>
+    <string name="support">الدعم الفني</string>
+    <string name="contact_us">اتصل بنا</string>
+
+    <string name="change_pass_txt">نحن نحتاج فقط إلى كلمة المرور الجديدة لإعادة تعيين كلمة المرور الخاصة بك</string>
+    <string name="old_password">كلمة المرور القيدمة</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+
+    <string name="ask_a_que">طرح سؤال</string>
+    <string name="send">إرسال</string>
+    <string name="insert_query">يرجى ادخال سؤالك</string>
+
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="ok">حسنا</string>
+
+    <string name="categories">الفئات</string>
+    <string name="featured_deals">الصفقات المميزة</string>
+
+    <string name="get_now">احصل على هذا العرض الان</string>
+    <string name="sort">ترتيب</string>
+    <string name="offer_detail">تفاصيل العرض</string>
+    <string name="done">تم</string>
+    <string name="nearest">الصفقات األقرب</string>
+    <string name="Featured_Deals">الصفقات المميزة</string>
+    <string name="use_voucher">استخدم القسيمة</string>
+    <string name="gift_using">اهدى عبر</string>
+    <string name="txt_voucher">"This is an e-Voucher. Simply present it at the selected Roam's redeemig partner."</string>
+    <string name="insert_merchant_code">أدخل رمز التعريف الشخصي للتاجر</string>
+    <string name="reddem_voucher">استرد قيمة القسيمة</string>
+    <string name="success_msg">ح القسيمة بصرف قمت لقد</string>
+    <string name="success">نجاح</string>
+    <string name="off">٪ خصم</string>
+    <string name="valid_till">صالح حتى</string>
+    <string name="estimate_saving">تقدير الادخار ر.س</string>
+    <string name="offer_about">حول</string>
+    <string name="terms_condition">الشروط و الاحكام</string>
+    <string name="location">المواقع</string>
+    <string name="voucher">القسيمة</string>
+    <string name="insert_pin">الرجاء إدخال دبوس التاجر</string>
+
+    <string name="share_using">المشاركة باستخدام</string>
+    <string name="thanks_app_txt">شكرا لك على استخدام تطبيق اوفراتي.</string>
+    <string name="offer_valid_till">العرض ساري حتى</string>
+    <string name="thank_you">شكرا!</string>
+    <string name="receive_gift">لقد تلقيت هدية من</string>
+    <string name="voucher_code_is">كود القسيمة الخاص بك هو</string>
+    <string name="km">KM</string>
+
+    <string name="list_view">عرض القائمة</string>
+    <string name="map_view">عرض الخريطة</string>
+    <string name="about_offaraty">نبذة عن أوفراتي</string>
+    <string name="download_msg">يمكن تنزيل هذه القسيمة مرة واحدة فقط. يرجى اختيار عرض آخر.</string>
+
+    <string name="check_empty">يرجى مراجعة التفاصيل المدخلة و المحاولة مرة أخرى</string>
+    <string name="no_favourite">لم يتم اضافة عروض مفضلة</string>
+    <string name="email_sent">ارسل البريد الالكتروني بنجاح</string>
+    <string name="my_fav">مفضلاتي</string>
+
+    <string name="confirm">تأكيد</string>
+    <string name="cancel_">إلغاء</string>
+
+    <string name="update">تحديث</string>
+    <string name="new_version">الجديد الإصدار</string>
+    <string name="update_available">يرجى تحديث التطبيق</string>
+    <string name="whatsappMsg">Hi, I am looking for support on Offaraty. Kindly assist.</string>
+
+    <string name="search">بحث</string>
+
+</resources>

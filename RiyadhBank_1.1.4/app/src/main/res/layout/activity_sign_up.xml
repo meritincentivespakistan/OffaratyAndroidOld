@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themeColor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/sign_up"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textAllCaps="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/user_white" />
+
+                <com.riyadhbank.Custom.RBRegularEditText
+                    android:id="@+id/edtFname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/first_name"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/user"
+                    android:tint="@color/white" />
+
+                <com.riyadhbank.Custom.RBRegularEditText
+                    android:id="@+id/edtLname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/last_name"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/ic_email_white" />
+
+                <com.riyadhbank.Custom.RBRegularEditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/email"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/ic_call_white" />
+
+                <com.riyadhbank.Custom.RBRegularEditText
+                    android:id="@+id/edtMobileNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/phone_number"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="14dp"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/ic_user_white" />
+
+                <com.riyadhbank.Custom.RBRegularEditText
+                    android:id="@+id/edtEmpId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/employee_id"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/password"
+                    android:tint="@color/white" />
+
+                <com.riyadhbank.Custom.RBRegularEditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/password"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="14dp"
+                    android:inputType="textPassword"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/ic_con_pass_white" />
+
+                <com.riyadhbank.Custom.RBRegularEditText
+                    android:id="@+id/edtConPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/con_password"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="14dp"
+                    android:inputType="textPassword"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_green_solid">
+
+                <com.riyadhbank.Custom.RBRegularTextView
+                    android:id="@+id/btnSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/sign_up"
+                    android:textColor="@color/white"
+                    android:textAllCaps="true"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <com.riyadhbank.Custom.RBLightTextView
+                    android:id="@+id/txt_dont_acc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dont_acc"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <com.riyadhbank.Custom.RBRegularTextView
+                    android:id="@+id/txtLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/txt_dont_acc"
+                        android:layout_toEndOf="@+id/txt_dont_acc"
+                    android:text="@string/Login"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

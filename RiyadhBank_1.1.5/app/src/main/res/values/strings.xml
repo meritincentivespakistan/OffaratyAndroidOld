@@ -1,0 +1,121 @@
+<resources>
+
+    <string name="app_name">Offaraty</string>
+
+    <string name="Login">Login</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_pass">Forgot password</string>
+
+    <string name="username">Username</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email address</string>
+    <string name="phone_number">Phone number</string>
+    <string name="employee_id">Employee Id</string>
+    <string name="con_password">Confirm Password</string>
+    <string name="dont_acc">"Have an account? "</string>
+
+    <string name="cancel">CANCEL</string>
+    <string name="submit">SUBMIT</string>
+    <string name="Submit">Submit</string>
+    <string name="otp_verification">OTP Verification</string>
+
+    <string name="please_try_again">Please try again.</string>
+
+    <string name="insert_username">Please enter username</string>
+    <string name="insert_fname">Please enter first name</string>
+    <string name="insert_lname">Please enter last name</string>
+    <string name="insert_email">Please enter email</string>
+    <string name="email_validation">Please enter valid email</string>
+    <string name="insert_mobile">Please enter mobile number</string>
+    <string name="insert_emp_id">Please enter employee id</string>
+    <string name="insert_password">Please enter password</string>
+    <string name="insert_con_password">Please enter confirm password</string>
+    <string name="insert_otp">Please enter OTP</string>
+    <string name="otp_validation">Please enter valid OTP</string>
+    <string name="con_password_validation">"Both password did't match"</string>
+    <string name="internet_msg">Please check your internet connection</string>
+    <string name="otp_msg">We have sent you an access code via SMS for verification</string>
+    <string name="logout_msg">Do you want to logout?</string>
+    <string name="otp_send_msg">OTP send successfully.</string>
+
+    <string name="offaraty">Offaraty</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="favourite">Favorites</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+
+    <string name="profile_update">Update Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="support">Support</string>
+    <string name="contact_us">Contact Us</string>
+
+    <string name="change_pass_txt">We Just Need Your New Password To Change Your Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+
+    <string name="ask_a_que">Ask A Question</string>
+    <string name="send">Send</string>
+    <string name="insert_query">Please insert your question</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="ok">OK</string>
+
+    <string name="categories">CATEGORIES</string>
+    <string name="featured_deals">FEATURED DEALS</string>
+
+    <string name="get_now">GET NOW</string>
+    <string name="sort">SORT</string>
+    <string name="offer_detail">Offer Details</string>
+    <string name="done">Done</string>
+    <string name="nearest">Nearest Deals</string>
+    <string name="Featured_Deals">Featured Deals</string>
+    <string name="use_voucher">Use Voucher</string>
+    <string name="gift_using">Gift using</string>
+    <string name="txt_voucher">"This is an e-Voucher. Simply present it at the selected Roam's redeemig partner."</string>
+    <string name="insert_merchant_code">Enter Merchant Pin</string>
+    <string name="reddem_voucher">Redeem Voucher</string>
+    <string name="success_msg">YOU HAVE SUCCESSFULLY REDEEMED YOUR VOUCHER!</string>
+    <string name="success">Success</string>
+    <string name="off">% OFF</string>
+    <string name="valid_till">Valid till</string>
+    <string name="estimate_saving">Estimate Saving SAR</string>
+    <string name="offer_about">About</string>
+    <string name="terms_condition">Terms &amp; Conditions</string>
+    <string name="location">Location</string>
+    <string name="voucher">Voucher</string>
+    <string name="insert_pin">Please insert merchant pin</string>
+
+    <string name="share_using">Share using</string>
+    <string name="thanks_app_txt">Thank you for using Offaraty App.</string>
+    <string name="offer_valid_till">Offer Valid Till</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="receive_gift">You received gift by</string>
+    <string name="voucher_code_is">Your voucher code is</string>
+    <string name="km">KM</string>
+
+    <string name="list_view">LIST VIEW</string>
+    <string name="map_view">MAP VIEW</string>
+    <string name="about_offaraty">About Offaraty</string>
+    <string name="download_msg">This Voucher can be downloaded only once. Please choose another offer.</string>
+
+    <string name="check_empty">Please check entered details and try again</string>
+    <string name="no_favourite">No favorites added</string>
+    <string name="email_sent">Email sent successfully</string>
+    <string name="my_fav">My favorites</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel_">Cancel</string>
+
+    <string name="update">Update</string>
+    <string name="new_version">New Version</string>
+    <string name="update_available">Please Update Application</string>
+    <string name="whatsappMsg">Hi, I am looking for support on Offaraty. Kindly assist.</string>
+
+    <string name="search">Search</string>
+
+</resources>

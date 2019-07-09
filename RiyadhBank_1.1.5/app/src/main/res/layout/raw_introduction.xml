@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themeColor">
+
+    <RelativeLayout
+        android:id="@+id/mainImgLout"
+        android:layout_width="@dimen/D_200dp"
+        android:layout_height="@dimen/D_200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/D_100dp">
+
+        <ImageView
+            android:id="@+id/mainImg"
+            android:layout_width="@dimen/D_200dp"
+            android:layout_height="@dimen/D_200dp"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <com.riyadhbank.Custom.RBBoldTextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainImgLout"
+        android:layout_marginTop="@dimen/D_20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/D_20dp" />
+
+    <com.riyadhbank.Custom.RBRegularTextView
+        android:id="@+id/txtSubTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginEnd="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginStart="40dp"
+        android:padding="@dimen/D_10dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/D_18dp"
+        android:lineSpacingExtra="-5dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/mainLout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.70"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:id="@+id/txtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/themeColor"
+                android:textSize="14dp"
+                android:gravity="start|left"
+                android:layout_gravity="start|left"
+                android:singleLine="true"/>
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:id="@+id/txtLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:gravity="start|left"
+                android:layout_gravity="start|left"
+                android:singleLine="true"
+                android:visibility="gone"/>
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:id="@+id/txtArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:gravity="start|left"
+                android:layout_gravity="start|left"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.30"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:id="@+id/txtKm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/green"
+                android:textSize="14dp" />
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:id="@+id/btnDirection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round_theme_withou_shadow"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingRight="15dp"
+                android:text="Directions"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

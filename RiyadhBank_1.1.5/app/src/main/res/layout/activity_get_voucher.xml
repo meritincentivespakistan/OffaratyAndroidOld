@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/actionBar"
+        layout="@layout/custom_actionbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/loutFooter"
+        android:layout_below="@+id/actionBar"
+        android:padding="10dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.riyadhbank.Custom.RBBoldTextView
+                android:id="@+id/offerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Buy 1 Get 1 Free"
+                android:textColor="@color/themeColor"
+                android:textSize="18dp" />
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:id="@+id/expiryDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Valid until 28th September 2018"
+                android:textColor="@color/greenTint"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/happy_face" />
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/code">
+
+                <com.riyadhbank.Custom.RBBoldTextView
+                    android:id="@+id/txtCouponCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="48E12tghjuj"
+                    android:textColor="@color/themeColor"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_theme_solid">
+
+                <com.riyadhbank.Custom.RBRegularTextView
+                    android:id="@+id/btnUseVoucher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/use_voucher"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/gift_using"
+                android:textColor="@color/themeColorTint"
+                android:textSize="14dp"
+                android:visibility="gone"/>
+
+            <RelativeLayout
+                android:id="@+id/sortLout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imgWhatsApp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:src="@drawable/wotsapp" />
+
+                <ImageView
+                    android:id="@+id/imgEmail"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_toEndOf="@+id/imgWhatsApp"
+                    android:layout_toRightOf="@+id/imgWhatsApp"
+                    android:src="@drawable/green_email" />
+
+            </RelativeLayout>
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:id="@+id/txtSponsor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:lineSpacingExtra="-5dp"
+                android:text="@string/txt_voucher"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/D_5dp"
+                app:cardCornerRadius="@dimen/D_3dp"
+                app:cardElevation="@dimen/D_2dp"
+                app:cardPreventCornerOverlap="false">
+
+                <com.riyadhbank.Custom.RoundishImageView
+                    android:id="@+id/imgSponsor"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/swype"
+                    app:cornerRadius="3dp"
+                    app:roundedCorners="all" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        android:id="@+id/loutFooter"
+        layout="@layout/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/D_65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/chandLout"
+            android:layout_width="@dimen/D_70dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/icn_chand_grey"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lout_favourite"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_weight="0.18"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_favourite"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/D_30dp"
+                    android:layout_marginTop="@dimen/D_14dp"
+                    android:padding="@dimen/D_2dp"
+                    android:src="@drawable/ic_favourite" />
+
+                <com.riyadhbank.Custom.RBRegularTextView
+                    android:id="@+id/txt_favourite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/favourite"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/D_12dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

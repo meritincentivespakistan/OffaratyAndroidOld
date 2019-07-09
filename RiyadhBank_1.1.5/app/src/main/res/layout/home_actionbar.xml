@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/themeColor">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="@dimen/D_40dp"
+                android:layout_height="@dimen/D_40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:padding="@dimen/D_12dp"
+                android:src="@drawable/back_arraow" />
+
+            <com.riyadhbank.Custom.RBRegularTextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/search"
+                android:layout_width="@dimen/D_40dp"
+                android:layout_height="@dimen/D_40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="@dimen/D_10dp"
+                android:src="@drawable/ic_search_white" />
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+</RelativeLayout>
